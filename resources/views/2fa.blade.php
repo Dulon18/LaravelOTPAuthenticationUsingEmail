@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Laravel 9 Two Factor Authentication Using Email</div>
+                <div class="card-header bg-primary text-white fw-bold">Otp authentication Using Email</div>
   
                 <div class="card-body">
                     <form method="POST" action="{{ route('2fa.store') }}">
@@ -51,7 +51,7 @@
   
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <a class="btn btn-link" href="{{ route('2fa.resend') }}">Resend Code?</a>
+                                <a class="btn text-success" href="{{ route('2fa.resend') }}">Resend Code?</a>
                             </div>
                         </div>
   
